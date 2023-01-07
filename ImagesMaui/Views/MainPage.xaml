@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ImagesMaui.MainPage">
+
+    <VerticalStackLayout>
+
+        <Frame BorderColor="Blue" WidthRequest="400" HeightRequest="100" Padding="10">
+            <Label Text="{Binding Nadpis}" FontSize="24"/>
+        </Frame>
+        <Frame BorderColor="Red" WidthRequest="100" HeightRequest="100" Padding="10">
+            <Image Source="{Binding Img}" WidthRequest="100" HeightRequest="100"/>
+        </Frame>
+        <Frame BorderColor="Green" WidthRequest="100" HeightRequest="100" Padding="10">
+            <Image Source="lock1.png" WidthRequest="100" HeightRequest="100"/>
+        </Frame>
+
+
+    </VerticalStackLayout>
+
+</ContentPage>
